@@ -23,4 +23,9 @@ end
 
 group :development do
   gem "web-console"
+  gem "annotate" # Add a comment summarizing the current schema
+  gem "rails-erd" # Generate Entity-Relationship Diagrams
+  gem "erb-formatter" # Format ERB Files
+  gem "letter_opener" # Preview emails
+  gem "chusaku", require: false # Annotate controllers
 end
